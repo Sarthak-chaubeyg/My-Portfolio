@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url(contactbgi.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Header Css goes here*/
+header{
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(rgb(105, 28, 58),rgb(45, 6, 67));
+    display: flex;
+    justify-content: space-between;
+}
+
+header #h1{
+    padding: 20px;
+}
+
+header #h1{
+    background: -webkit-linear-gradient(rgb(145, 29, 77),rgb(203, 71, 229));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+header nav{
+    background-color: none;
+    width: 300px;
+    height: 80px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(157, 123, 230);
+}
+
+header nav ul li a:hover{
+    color: rgb(251, 6, 75);
+    text-decoration: underline;
+}
+
+/* Form input div Css*/
+main #details{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+main #details h1{
+    color: rgb(255, 134, 195);
+    font-family: Helvetica;
+    padding-bottom: 10px;
+}
+
+main #details form button{
+    background-color: antiquewhite;
+    color: rgb(93, 4, 83);
+    padding: 15px;
+    border: thin 1px;
+    border-radius: 15px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+main #details form button:hover{
+    background-color: lightpink;
+    padding: 15px;
+    border: solid 2px greenyellow;
+}
+
+main #details form input{
+    border: thin 1px;
+    border-color: aquamarine;
+    color: rgb(20, 88, 102);
+    font-weight: 600;
+}
+
+main #details form textarea{
+    border: thin 1px;
+    width: 180px;
+    height: 60px;
+    border-color: aquamarine;
+    color: rgb(20, 88, 102);
+    font-weight: 600;
+}

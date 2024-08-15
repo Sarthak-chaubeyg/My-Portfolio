@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+/*Header Css goes here*/
+header{
+    height: 80px;
+    width: 100%;
+    background-image: linear-gradient(rgb(105, 28, 58),rgb(45, 6, 67));
+    display: flex;
+    justify-content: space-between;
+}
+
+header #h1{
+    padding: 20px;
+}
+
+header #h1{
+    background: -webkit-linear-gradient(rgb(145, 29, 77),rgb(203, 71, 229));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+header nav{
+    background-color: none;
+    width: 300px;
+    height: 80px;
+}
+
+header nav ul{
+    list-style-type: none;
+    display: flex;
+}
+
+header nav ul li{
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: rgb(157, 123, 230);
+}
+
+header nav ul li a:hover{
+    color: rgb(251, 6, 75);
+    text-decoration: underline;
+}
+
+/* Main Css goes Here*/
+main{
+    background-color: black;
+    color: white;
+}
+
+main #textdiv{
+    height: 250px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: none;
+}
+
+main #textdiv h1{
+    color: rgb(169, 223, 129);
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 36px;
+    padding-left: 15px;
+}
+
+main #textdiv p{
+    font-family: Helvetica;
+    font-weight: 500;
+    font-size: 20px;
+   padding-left: 15px;
+}
+
+footer{
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+
+footer p{
+    font-family: Verdana;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    color: #545151;
+}
