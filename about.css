@@ -9,8 +9,11 @@ html,body{
     width: 100%;
 }
 
-/* Header code will remain same for all and here too*/
-/*Header Css goes here*/
+body{
+    background-color: black;
+    color: white;
+}
+/* Header code goes here */
 header{
     height: 80px;
     width: 100%;
@@ -42,7 +45,8 @@ header nav ul{
 
 header nav ul li{
     padding-top: 25px;
-    padding-left: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-bottom: 20px;
 }
 header nav ul li a{
@@ -53,4 +57,62 @@ header nav ul li a{
 header nav ul li a:hover{
     color: rgb(251, 6, 75);
     text-decoration: underline;
+}
+
+
+/* Main css goes here*/
+main #name{
+    height: 200px;
+    width: 100%px;
+}
+
+main #name h1{
+    font-size: 64px;
+    padding-left: 4.7rem;
+    padding-top: 1rem;
+   font-family: Arial, Helvetica, sans-serif;
+   background: -webkit-linear-gradient(rgb(155, 87, 31),rgb(125, 99, 218));
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
+main #breifup{
+    height: 160px;
+    width: 100%;
+    padding: 10px 16px;
+}
+
+
+main #breifup h2{
+    font-size: 34px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(169, 223, 129);
+}
+
+main #breifup p{
+    font-size: 20px;
+    padding-top:  10px;
+    font-family: monospace;
+    font-weight: 400;
+}
+
+main #aboutme1{
+    height: 400px;
+    width: 100%;
+    padding: 10px 16px;
+}
+
+main #aboutme1 h2{
+    font-size: 34px;
+    font-weight: 400;
+    color: rgb(169, 223, 129);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main #aboutme1 p{
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: monospace;
+    font-weight: 400;
 }
