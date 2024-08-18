@@ -93,7 +93,7 @@ main #breifup h2{
 main #breifup p{
     font-size: 18px;
     padding-top:  10px;
-    font-family: monospace;
+    font-family: helvetica;
     font-weight: 400;
 }
 
@@ -113,6 +113,6 @@ main #aboutme1 h2{
 main #aboutme1 p{
     font-size: 18px;
     padding-top: 10px;
-    font-family: monospace;
+    font-family: Helvetica;
     font-weight: 400;
 }
