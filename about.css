@@ -68,7 +68,7 @@ main #name{
 
 main #name h1{
     font-size: 64px;
-    padding-left: 3.7rem;
+  text-align: center;
     padding-top: 1rem;
    font-family: Arial, Helvetica, sans-serif;
    background: -webkit-linear-gradient(rgb(155, 87, 31),rgb(125, 99, 218));
