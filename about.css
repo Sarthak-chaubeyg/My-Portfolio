@@ -117,3 +117,13 @@ main #aboutme1 p{
     font-family: Helvetica;
     font-weight: 400;
 }
+
+main #aboutme1 ul{
+    list-style-type: none;
+}
+
+main #aboutme1 ul li{
+    font-size: 18px;
+    font-family: Helvetica;
+    font-weight: 400;
+}
