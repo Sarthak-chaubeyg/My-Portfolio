@@ -102,6 +102,7 @@ main #aboutme1{
     height: 400px;
     width: 100%;
     padding: 10px 16px;
+    background-color: gray;
 }
 
 main #aboutme1 h2{
@@ -126,4 +127,5 @@ main #aboutme1 ul li{
     font-size: 18px;
     font-family: Helvetica;
     font-weight: 400;
+    padding-top: 10px;
 }
