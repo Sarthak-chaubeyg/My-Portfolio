@@ -45,7 +45,7 @@ header nav ul{
 
 header nav ul li{
     padding-top: 25px;
-    padding-left: 15px;
+    padding-left: 12px;
     padding-bottom: 20px;
 }
 header nav ul li a{
@@ -57,7 +57,6 @@ header nav ul li a:hover{
     color: rgb(251, 6, 75);
     text-decoration: underline;
 }
-
 
 /* Main css goes here*/
 main #name{
