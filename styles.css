@@ -54,6 +54,7 @@ button{
    border-width: 1px;
    border: solid;
    border-color: black;
+    cursor: pointer;
 }
 
 
