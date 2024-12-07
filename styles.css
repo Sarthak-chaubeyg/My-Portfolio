@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #eee;
+    scroll-behavior: smooth;
+}
+/* Header styling*/
+header {
+    position: sticky;
+    height: 120px;
+    width: 100%;
+    background-color: rgb(128, 128, 128);
+    opacity: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    background-color: none;
+    width:auto;
+    height: 120px;
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+    padding-right: 15px;
+    font-weight: 400;
+    font-family: Roboto, Poppins, sans-serif;
+    font-size: 4rem;
+    color: white;
+}
+
+button{
+    background-color: none;
+    width: 170px;
+    height: 90px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #eee;
+    border-width: 3px;
+    border-radius: 50px;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: Poppins,Helvetica;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+   border-width: 1px;
+   border: solid;
+   border-color: black;
+}
+
+
+button:hover{
+    background-color: orange;
+}
+
+/* Main styling*/
+main{
+    width: 100%;
+
+}
+main h2{
+    font-family: Roboto, Poppins, sans-serif;
+    font-size: 5rem;
+    justify-content: center;
+    background-color: none;
+    text-align: center;
+}
+
+main img{
+    position: absolute;
+}
+main #p1{
+    margin-left: 520px;
+    margin-top: 30px;
+    height: 140px;
+    width: 505px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+main #p1 p{
+    font-family: Poppins;
+    padding: 15px;
+    font-size: 20px;
+}
+
+main #p2{
+    margin-left: 520px;
+    margin-top: 30px;
+    height: 490px;
+    width: 505px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+main #p2 p{
+    font-family: Poppins;
+    padding: 15px;
+    font-size: 20px;
+}
+
+main #p2 ul{
+    list-style-type: square;
+    background-color: none;
+    padding-left: 30px;
+}
+
+main #p2 ul li{
+    font-family: Poppins,Helvetica;
+    font-size: 20px;
+}
+
+main #p2 ul li a{
+    text-decoration: none;
+    color: gray;
+}
+
+/* Footer styling goes here*/
+
+footer{
+    width: 505px;
+    height: 90px;
+    background-color: #fff;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: 520px;
+    padding: 15px;
+    font-family: Poppins;
+}
+
+footer p{
+    text-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    opacity: 65%;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer #icons{
+    display: flex;
+    height: auto;
+    width: auto;
+    justify-content: space-around;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    background-color: none;
+}
+
+
+footer a:hover{
+    color: orange;
+}
+
