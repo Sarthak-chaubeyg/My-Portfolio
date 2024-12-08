@@ -54,7 +54,7 @@ button{
    border-width: 1px;
    border: solid;
    border-color: black;
-    cursor: pointer;
+   cursor: pointer;
 }
 
 
@@ -65,7 +65,6 @@ button:hover{
 /* Main styling*/
 main{
     width: 100%;
-
 }
 main h2{
     font-family: Roboto, Poppins, sans-serif;
@@ -76,10 +75,20 @@ main h2{
 }
 
 main img{
-    position: absolute;
+    border-radius: 5px;
+    border: 1px solid rgb(97, 9, 9);
+}
+main #adjust{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main #sub-adjust{
+    display: block;
+    
 }
 main #p1{
-    margin-left: 520px;
     margin-top: 30px;
     height: 140px;
     width: 505px;
@@ -95,7 +104,6 @@ main #p1 p{
 }
 
 main #p2{
-    margin-left: 520px;
     margin-top: 30px;
     height: 490px;
     width: 505px;
@@ -133,9 +141,8 @@ footer{
     height: 90px;
     background-color: #fff;
     border-radius: 30px;
-    margin-top: 80px;
-    margin-left: 520px;
-    padding: 15px;
+    margin-top: 60px;
+    padding: 12px 15px;
     font-family: Poppins;
 }
 
