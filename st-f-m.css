@@ -138,27 +138,23 @@ html, body{
     }
  }
 
- /* Specialised styling for ipad and tabs*/
- /*
+/* Specialised styling for ipad and tabs*/
+ 
 @media only screen and (min-width: 601px) and (max-width: 900px){
     main #p1{
-        margin-left: 500px;
+       max-width: 470px;
     }
     main #p2{
-        margin-left: 500px;
+    max-width: 470px;
+    height: auto; 
     }
 
-    main img{
-        width: 460px;
-        position: absolute;
-        border-radius: 5px;
-    }
-
-    footer{
-        margin-top: 40px;
-        margin-left: 500px;
-    border-radius: 30px;
+    main footer{
+        max-width: 470px;
+        height: auto;
     }
 }
+
+
 
 */
