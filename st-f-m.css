@@ -140,21 +140,22 @@ html, body{
 
 /* Specialised styling for ipad and tabs*/
  
-@media only screen and (min-width: 601px) and (max-width: 900px){
+@media only screen and (min-width: 601px) and (max-width: 950px){
     main #p1{
-       max-width: 470px;
+       max-width: 450px;
+       height: auto;
     }
     main #p2{
-    max-width: 470px;
+    max-width: 450px;
     height: auto; 
     }
 
     main footer{
-        max-width: 470px;
+        max-width: 450px;
         height: auto;
     }
+
+    main img{
+        width: 370px;
+    }
 }
-
-
-
-*/
