@@ -75,12 +75,10 @@ main h2{
 }
 
 main img{
-    border-radius: 5px;
-    border: 1px solid rgb(97, 9, 9);
+   width: auto;
 }
 main #adjust{
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 
