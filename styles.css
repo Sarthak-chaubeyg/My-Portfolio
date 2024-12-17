@@ -84,7 +84,7 @@ main #adjust{
 
 main #sub-adjust{
     display: block;
-    
+    cursor: pointer;
 }
 main #p1{
     margin-top: 30px;
